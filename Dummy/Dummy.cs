@@ -62,6 +62,8 @@ public sealed class Dummy : IDalamudPlugin
         // Unregister all actions to not leak anything during disposal of plugin
         PluginInterface.UiBuilder.Draw -= this.WindowSystem.Draw;
         PluginInterface.UiBuilder.OpenConfigUi -= this.ToggleConfigUi;
+		PluginInterface.UiBuilder.OpenMainUi -= this.ToggleConfigUi;
+		ClientState.TerritoryChanged -= this.MapChanged;
 
         this.WindowSystem.RemoveAllWindows();
 
