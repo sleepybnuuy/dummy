@@ -24,7 +24,7 @@ public sealed class Dummy : IDalamudPlugin
 	private readonly string _modelPath = "bgcommon/world/lvd/017/bgparts/w_lvd_017_01a.mdl"; // Dummy Mdl
 	private readonly uint _targetMap = 370; // Kugane Map
 	private readonly uint _targetTerritory = 628; // Kugane Territory
-	private readonly Vector3 _dummyPos = new (43.276f, 4.6f, -48.855f); // Aetheryte Position
+	private readonly Vector3 _dummyPos = new (43.2529984f, 4.59999609f, -48.8377991f); // LGB Position circa 7.2
 	private unsafe BgObject* _dummyPtr;
 
     public Configuration Configuration { get; init; }
