@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+    <PropertyGroup>
+        <Author>bwuny</Author>
+        <Name>Dummy</Name>
+        <InternalName>Dummy</InternalName>
+        <Punchline>kugane striking dummy my beloved</Punchline>
+        <Description>a scene-manipulation plugin to reinstate my favorite little guy</Description>
+        <AssemblyVersion>0.0.0.1</AssemblyVersion>
+        <RepoUrl>https://github.com/sleepybnuuy/dummy</RepoUrl>
+        <IconUrl>https://raw.githubusercontent.com/sleepybnuuy/dummy/master/icon.png</IconUrl>
+        <ApplicableVersion>any</ApplicableVersion>
+        <Tags>dummy;background;objects;kugane</Tags>
+        <AcceptsFeedback>true</AcceptsFeedback>
+    </PropertyGroup>
+</Project>
