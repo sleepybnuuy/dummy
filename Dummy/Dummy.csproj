@@ -5,7 +5,7 @@
         <Name>Dummy</Name>
         <InternalName>Dummy</InternalName>
         <Punchline>kugane striking dummy my beloved</Punchline>
-        <Description>a scene-manipulation plugin to reinstate my favorite little guy</Description>
+        <Description>a scene-manipulation plugin to reinstate my favorite little guy. adds an untargetable, no-collision dummy at the Kugane Aetheryte</Description>
         <AssemblyVersion>0.0.0.1</AssemblyVersion>
         <RepoUrl>https://github.com/sleepybnuuy/dummy</RepoUrl>
         <IconUrl>https://raw.githubusercontent.com/sleepybnuuy/dummy/master/icon.png</IconUrl>

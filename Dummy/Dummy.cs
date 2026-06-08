@@ -40,7 +40,7 @@ public sealed class Dummy : IDalamudPlugin
         this.WindowSystem.AddWindow(this.ConfigWindow);
 
         CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand) {
-            HelpMessage = "A useful message to display in /xlhelp"
+            HelpMessage = "opens Dummy settings"
         });
 
         // Tell the UI system that we want our windows to be drawn through the window system
